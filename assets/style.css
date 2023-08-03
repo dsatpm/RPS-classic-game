@@ -85,6 +85,7 @@ button:active {
   flex-direction: column;
   padding: 0.5rem;
   margin: 0.5rem;
+  max-width: 1200px;
 }
 
 .header {
@@ -111,6 +112,7 @@ button:active {
   margin: 4px;
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .button {
@@ -138,4 +140,56 @@ button:active {
 
 .d {
   grid-area: d;
+}
+
+@media only screen and (max-width: 574px) {
+  body {
+    font-size: 14px;
+  }
+
+  .rock-font,
+  .paper-font,
+  .scissors-font {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+    margin: 2px auto;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  #outcome {
+    font-size: 14px;
+  }
+
+  img {
+    height: 80px;
+    width: 80px;
+    padding: 0 2px;
+  }
+
+}
+
+@media only screen and (max-width: 512px) {
+  body {
+    font-size: 12px;
+  }
+
+  .rock-font,
+  .paper-font,
+  .scissors-font {
+    font-size: 28px;
+  }
 }
