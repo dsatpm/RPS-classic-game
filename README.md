@@ -1,47 +1,41 @@
-# Module 03 Mini-Project: Rock, Paper, Scissors
+# Rock, Paper, Scissors
 
-In this activity, you will work with a group to build a game using only JavaScript.
+Welcome to the Rock, Paper, Scissors. In this simple web-based game, you can challenge an automated opponent to a classic game of Rock, Paper, Scissors.
+
 
 ## Instructions
 
-The completed application should meet the following criteria:
+To play, follow these simple steps:
+- Open application in your web browser
+- Select your choice of weapon
+- The computer will respond with their choice
+- The app will announce the winner or declare a tie
+- You can play as many rounds as you like
+- After each round, the game will display your total wins, ties, and losses
 
-* As a user, I want to play Rock, Paper, Scissors against an automated opponent.
 
-* As a user, I can enter R, P, or S to signify my choice of rock, paper, or scissors.
+## Specifications
 
-* As a user, I expect the computer to choose R, P, or S in return.
+This Rock, Paper, Scissors game adheres to the following specifications:
+- Utilizes the `alert()`, `confirm()`, and `prompt()` methods for user interaction
+- The computer's choice is randomly generated to simulate fairness
 
-* As a user, I want the option to play again whether I win or lose.
 
-* As a user, I want to see my total wins, ties, and losses after each round.
+## Try it Out
 
-### Specifications
+To play a match or two, click [here](https://dsatpm.github.io/rock_paper_scissors/)
 
-* Must use the `alert()`, `confirm()`, and `prompt()` methods to collect user input and display information to the user.
 
-* The computer's selection must be random to ensure a fair game.
+## Contributing
+Contributions are always welcome! If you have ideas for improvements or new features, feel free to contribute. Here's how you can get involved:
+### Fork the Repository:
+Start by forking the project to your GitHub account.
+### Make Changes:
+Implement your enhancements or fix any issues.
+### Submit a Pull Request:
+Open a pull request with a clear description of your changes.
 
-## 💡 Notes
 
-Refer to the documentation:
+## License 
 
-* [MDN Web Docs on window.alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
-
-* [MDN Web Docs on window.confirm()](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm)
-
-* [MDN Web Docs on window.prompt()](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
-
-* [MDN Web Docs on Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your group to further your knowledge:
-
-* How can you customize the appearance of the `alert()`, `confirm()`, and `prompt()` dialog boxes?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
